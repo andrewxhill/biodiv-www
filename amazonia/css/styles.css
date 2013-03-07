@@ -7,6 +7,7 @@
         padding-top: 0px;
         padding-bottom: 0px;
         font: 14px/1.231 "Lato", sans-serif;
+        font-family: "Helvetica Neue","Nimbus Sans",Helvetica,Arial,"Lucida Grande",sans-serif;
       }
       .navbar-inverse .navbar-inner {
         background-image: none;
@@ -260,11 +261,23 @@
         margin: 6px;
         float: left;
         position: relative;
+        background-repeat: no-repeat;
+      }
+/*      .row .partner-links li.fapesp{
+        background-image: url('../img/logos/fapesp.gif') ;
+        background-size:50px;
+      }
+      .row .partner-links li.nasa{
+        background-image: url('../img/logos/nasa.gif') ;
+        background-size:72px 61px;
       }
       .row .partner-links li.nsf{
+        background-image: url('../img/logos/nsf.jpg') ;
+        background-size:75px 75px;
+      }*/
+      .row .partner-links li{
         background-image: url('http://www.cochise.edu/cfiles/files/k12/nsf1.png') ;
         background-size:75px 75px;
-        background-repeat: no-repeat;
       }
 
 /* People page
@@ -363,7 +376,7 @@
 -------------------------------------------------- */
 
 .row .description p {
-  font-size: 18px;
+  font-size: 16px;
 }
 .row .description .image.right {
   float:right;
@@ -372,14 +385,12 @@
   float:left;
 }
 .row .description .image {
+  color: black;
   float:right;
-   margin: 1em;
-  border: 2px solid #BDC3C7 !important;
+  margin: 0.5em 1em 1.5em 1em;
   display: block;
   max-width: 230px;
-  max-height: 400px;
-  padding: 10px;
-  background: #ECF0F1;
+  padding: 5px 1px 5px 1px;
 }
 .row .description .image img {
   display: block;
@@ -389,8 +400,35 @@
 }
 .row .description .image .caption {
   padding: 10px;
-  font-size: 12px;
-  font-weight: 700;
+  font-size: 14px;
+  font-weight: 500;
 }
-
+.row .people {
+  color: #27AE60;
+  position: relative;
+  margin: auto;
+  background: #ECF0F1;
+}
+.row .people h4{ text-align: center; font-weight:bold;}
+.row .people h3{ font-weight:bold; }
+.row .people ul {
+  padding-top: 15px;
+  padding-bottom: 5px;
+  font-weight: 600;
+  font-size: 10px;
+  text-transform:uppercase;
+  list-style-type: none;
+  margin: auto;
+  position: relative;
+  height: 40px;
+}
+.row .people ul li {
+  height: 40px;
+  line-height: 10px;
+  vertical-align: middle; 
+  text-align: center;
+  float: left;
+  margin:auto;
+  width: 23%;
+}
 
