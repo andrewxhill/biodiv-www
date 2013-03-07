@@ -253,6 +253,7 @@
         list-style-type: none;
         position: relative;
         float: left;
+        display: block;
       }
       
       .row .partner-links li {
@@ -263,20 +264,24 @@
         position: relative;
         background-repeat: no-repeat;
       }
-/*      .row .partner-links li.fapesp{
-        background-image: url('../img/logos/fapesp.gif') ;
-        background-size:50px;
-      }
-      .row .partner-links li.nasa{
-        background-image: url('../img/logos/nasa.gif') ;
-        background-size:72px 61px;
-      }
-      .row .partner-links li.nsf{
-        background-image: url('../img/logos/nsf.jpg') ;
-        background-size:75px 75px;
-      }*/
       .row .partner-links li{
         background-image: url('http://www.cochise.edu/cfiles/files/k12/nsf1.png') ;
+        background-size:75px 75px;
+      }
+      .row .partner-links li.fapesp{
+        width: 140px; height: 75px;
+        background-image: url('../img/logos/fapesp.gif') ;
+        background-size: contain;
+        background-position:center
+      }
+      .row .partner-links li.nsf{
+        width: 75px; height: 75px;
+        background-image: url('../img/logos/nsf.png') ;
+        background-size:75px 75px;
+      }
+      .row .partner-links li.nasa{
+        width: 75px; height: 75px;
+        background-image: url('../img/logos/nasa.png') ;
         background-size:75px 75px;
       }
 
