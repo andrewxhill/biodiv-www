@@ -282,7 +282,8 @@
       .row .partner-links li.nasa{
         width: 75px; height: 75px;
         background-image: url('../img/logos/nasa.png') ;
-        background-size:75px 75px;
+        background-size: contain;
+        background-position:center
       }
 
 /* People page
