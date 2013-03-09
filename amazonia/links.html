@@ -133,9 +133,9 @@
           var row = $('<div>').addClass('row');
           row.append($('<div>').addClass('span3'))
           var sp = $('<div>').addClass('span6');
-          sp.append($('<span>').addClass('category').addClass('span1').html(r.category));
-          sp.append($('<span>').addClass('title').addClass('span3').html(r.title));
-          sp.append($('<span>').addClass('link').addClass('span1').html('<a href="'+r.url+'">click here</a>'));
+          sp.append($('<div>').addClass('category').addClass('span1').html(r.category));
+          sp.append($('<div>').addClass('title').addClass('span3').html(r.title));
+          sp.append($('<div>').addClass('link').addClass('span1').html('<a href="'+r.url+'">click here</a>'));
           row.append(sp);
           $('.rows').append(row);
           // Drop data from dataset_controller into the template in data.html
