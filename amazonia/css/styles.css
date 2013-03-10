@@ -9,6 +9,9 @@
         font: 14px/1.231 "Lato", sans-serif;
         font-family: "Helvetica Neue","Nimbus Sans",Helvetica,Arial,"Lucida Grande",sans-serif;
       }
+      h1, h2, h3, h4 {
+        color: #2980B9;
+      }
       .navbar-inverse .navbar-inner {
         background-image: none;
         background-repeat: no-repeat;
@@ -411,7 +414,6 @@
   font-weight: 500;
 }
 .row .people {
-  color: #27AE60;
   position: relative;
   margin: auto;
   background: #ECF0F1;
